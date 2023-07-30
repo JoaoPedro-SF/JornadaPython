@@ -13,6 +13,8 @@ quais as ações mais eficientes para reduzir esse número.
 
 #### Conclusão maior causas de cancelamento:
 
-forma de pagamento Mensal
+Forma de pagamento Mensal
+
 Dias de atraso maior que 20
+
 Ligações de call center maior que 4 vezes
