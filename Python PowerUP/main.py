@@ -42,7 +42,7 @@ sleep(3)
 # Passo 3: Importar a vase de produtos para cadastrar
 # pip install pandas
 
-tabela = pd.read_csv("produto.csv")
+tabela = pd.read_csv("produtos.csv")
 print(tabela)
 # Passo 4: Cadastrar um produto
 for linha in tabela.index:
