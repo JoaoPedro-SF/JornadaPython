@@ -1,8 +1,10 @@
 from time import sleep
 import pyautogui
 import pandas
-tabela = pandas.read_csv("produtos.csv")
-print(tabela)
+# tabela = pandas.read_csv("Python PowerUP\produtos.csv")
+# print(tabela)
+# tabela = pandas.read_csv("item.csv")
+# print(tabela)
 
 sleep(5)
 print(pyautogui.position())

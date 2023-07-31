@@ -6,10 +6,12 @@
 # Passo 4: Cadastrar um produto
 # Passo 5: Repetir o processo de cadastro até o fim
 
+from time import sleep
+
 # pip install pyautogui
 import pandas as pd
-from time import sleep
 import pyautogui  # principais comandos:
+
 # pyautogui.write -> escrever um texto
 # pag.press -> apertar 1 tecla
 # pag.click -> clicar em algum lugar da tela
@@ -27,7 +29,7 @@ pyautogui.hotkey("ctrl", "shift", "n")
 # entrar no link > fazendo o python simular o que uma pessoa faria usando mouse e teclado
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
 pyautogui.press("enter")
-sleep(3)
+sleep(2)
 
 # Passo 2: Fazer Login
 # selecionar o campo de email
@@ -37,12 +39,11 @@ pyautogui.write("Teste@gmail.com")
 pyautogui.press("tab")  # passando para proximo campo
 pyautogui.write("teste1")
 pyautogui.click(x=2878, y=555)  # click botão login
-sleep(3)
+sleep(2)
 
 # Passo 3: Importar a vase de produtos para cadastrar
 # pip install pandas
-
-tabela = pd.read_csv("produtos.csv")
+tabela = pd.read_csv("Python PowerUP\produtos.csv")
 print(tabela)
 # Passo 4: Cadastrar um produto
 for linha in tabela.index:
